@@ -1,8 +1,24 @@
 import React from 'react'
+import { ListGroup, ListGroupItem } from 'react-bootstrap'
 
-const TodoList = () => {
+const TodoList = ({todos, deleteTodos}) => {
   return (
-    <div>TodoList</div>
+      <>
+          <ListGroup>
+              {todos.map((todo, index) => {
+                  <ListGroup.Item>
+                      {todo}
+                      <span
+                          className='float-right'
+                          onClick={() => deleteTodos(index)}
+                          style={{cursor: 'pointer'}}
+                      >
+                          &#10006
+                      </span>
+                </ListGroup.Item>
+            })}
+          </ListGroup>   
+    </>
   )
 }
 
