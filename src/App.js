@@ -9,10 +9,16 @@ function App() {
   const addTodos = (job) => {
     setTodos([...todos], job)
   }
+
+  const deleteTodos = (index) => {
+    newTodos = [...todos];
+    newTodos.splice(index, 1);
+    setTodos(newTodos);
+  }
   return (
     <div className='container'>
       <div className="d-flex flex-column justify-content-center align-items-center gap-3">
-        <TodoForm />
+        <TodoForm addTodos={addTodos} />
         <TodoList />
       </div>
     </div>
