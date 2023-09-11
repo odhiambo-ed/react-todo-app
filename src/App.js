@@ -11,7 +11,7 @@ function App() {
   }
 
   const deleteTodos = (index) => {
-    newTodos = [...todos];
+    const newTodos = [...todos];
     newTodos.splice(index, 1);
     setTodos(newTodos);
   }
