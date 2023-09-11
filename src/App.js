@@ -4,10 +4,10 @@ import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 
 function App() {
-  const [todos, setTodos] = useState("")
+  const [todos, setTodos] = useState([])
 
-  const addTodos = (job) => {
-    setTodos([...todos], job)
+  const addTodos = (task) => {
+    setTodos([...todos, task])
   }
 
   const deleteTodos = (index) => {
