@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# ToDo List Manager (Ruby Command-Line Application)
+# React To-Do List App
 
 ![Shaking](https://github.com/odhiambo-ed/animated-gifs/blob/master/excited-happy/BalmerGatesShakingIt.gif?raw=true)
 
