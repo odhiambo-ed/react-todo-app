@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import { Button, Form } from 'react-bootstrap'
 
-const TodoForm = () => {
-    const [task setTask] = useState("");
+const TodoForm = ({addTodo}) => {
+    const [task, setTask] = useState("");
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (task.trim() !== "") {
             addTodo(task);
-            
+            setTask("");
         }
     }
     return (
