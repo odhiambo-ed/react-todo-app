@@ -30,11 +30,9 @@ const TodoForm = ({addTodos}) => {
                         }}
                         isInvalid={!isValid}
                     />
-                    {!isValid && (
                         <Form.Control.Feedback type='invalid' className='text-danger'>
                             Please enter valid task.
                         </Form.Control.Feedback>
-                    )}
               </Form.Group>
               <Button type='submit' variant='primary'>Add Task</Button>
         </Form>
