@@ -17,7 +17,7 @@ const TodoForm = ({addTodos}) => {
     }
     return (
       <>
-            <Form className='d-flex gap-2 justify-content-center' onSubmit={handleSubmit}>
+            <Form className='d-flex flex-row gap-2 justify-content-center align-items-center' onSubmit={handleSubmit}>
               <Form.Group controlId='taskInput'>
                   <Form.Control
                         className='w-100'
