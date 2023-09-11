@@ -19,7 +19,7 @@ function App() {
     <div className='container'>
       <div className="d-flex flex-column justify-content-center align-items-center gap-3">
         <TodoForm addTodos={addTodos} />
-        <TodoList />
+        <TodoList todos={todos} deleteTodos={deleteTodos} />
       </div>
     </div>
   );
