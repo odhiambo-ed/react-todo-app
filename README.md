@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ToDo List Manager (Ruby Command-Line Application)
 
-## Available Scripts
+![Shaking](https://github.com/odhiambo-ed/animated-gifs/blob/master/excited-happy/BalmerGatesShakingIt.gif?raw=true)
 
-In the project directory, you can run:
+## Description
 
-### `yarn start`
+> This is a simple To-Do list application built with React, React Hooks, and React Bootstrap. It allows users to add, delete, and manage tasks in a user-friendly interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `yarn test`
+## Technologies and Languages Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+![React](https://icongr.am/devicon/react-original.svg?size=100&color=currentColor) React
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Add new tasks to the list.
+- Delete tasks from the list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Prerequisites
 
-### `yarn eject`
+Before you start, ensure you have the following installed:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[] Node.js: You need Node.js to run this application.
+[] yarn: yarn is the package manager for Node.js, and it comes bundled with Node.js.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get a local copy up and running, follow these simple steps:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+```
+git clone https://github.com/odhiambo-ed/react-todo-app.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+cd /react-todo-app
+```
 
-### Code Splitting
+3. Build and run the application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+yarn install
+```
 
-### Analyzing the Bundle Size
+```
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Author(s)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+  <a href="https://github.com/white3d" target="blank"><img align="center"
+        src="https://github.com/white3d/GitHub-User-Content/blob/main/Passport_Ed-M.png"
+        alt="Edward" height="80" width="80"/></a>   **Edward Odhiambo**
 
-### Advanced Configuration
+- GitHub: [@whit3d](https://github.com/odhiambo-ed)
+- Twitter: [@odhiambo_ed](https://twitter.com/odhiambo_ed)
+- LinkedIn: [Edward Odhiambo](https://www.linkedin.com/in/edward-odhiambo/)
+- Portfolio: [Edward Odhiambo](https://edwardodhiambo.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🤝 Contributing
 
-### Deployment
+Contributions, issues, and feature requests are welcome!!!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Feel free to check the [issues page](https://github.com/odhiambo-ed/react-todo-app.git/issues)
 
-### `yarn build` fails to minify
+If you'd like to contribute to this project, please follow these guidelines:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Fork the repository.
+- Create a new branch.
+- Make your changes and commit them.
+- Push your changes to your fork.
+- Create a pull request with a clear description of your changes.
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to [React community](https://react.dev/) for their amazing framework!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
+
+Have a happy coding experience! 💪
